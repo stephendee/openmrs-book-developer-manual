@@ -1,0 +1,867 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Making Your First Module · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../What_next/getInvolved.html" />
+    
+    
+    <link rel="prev" href="../Technology/getSetUp.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../Kick_off/brief_background_of_health_it.html">
+            
+                <a href="../Kick_off/brief_background_of_health_it.html">
+            
+                    
+                    Brief Background of Health IT
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../Kick_off/solving_the_health_it_challenges_our_responsemd.html">
+            
+                <a href="../Kick_off/solving_the_health_it_challenges_our_responsemd.html">
+            
+                    
+                    Solving the Health IT Challenges
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../Kick_off/openmrs_today.html">
+            
+                <a href="../Kick_off/openmrs_today.html">
+            
+                    
+                    OpenMRS Today
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../Community/workingCooperatively.html">
+            
+                <a href="../Community/workingCooperatively.html">
+            
+                    
+                    Working Cooperatively
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../Community/collaborationTools.html">
+            
+                <a href="../Community/collaborationTools.html">
+            
+                    
+                    Collaboration Tools
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../Technology/architecture.html">
+            
+                <a href="../Technology/architecture.html">
+            
+                    
+                    Architecture
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../Technology/dataModel.html">
+            
+                <a href="../Technology/dataModel.html">
+            
+                    
+                    Data Model
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../Technology/developmentProcess.html">
+            
+                <a href="../Technology/developmentProcess.html">
+            
+                    
+                    Development Process
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../Technology/getSetUp.html">
+            
+                <a href="../Technology/getSetUp.html">
+            
+                    
+                    Get Set Up
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.11" data-path="yourFirstModule.html">
+            
+                <a href="yourFirstModule.html">
+            
+                    
+                    Making Your First Module
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../What_next/getInvolved.html">
+            
+                <a href="../What_next/getInvolved.html">
+            
+                    
+                    Get Involved
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../What_next/getSupport.html">
+            
+                <a href="../What_next/getSupport.html">
+            
+                    
+                    Get Support
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="../What_next/devChecklist.html">
+            
+                <a href="../What_next/devChecklist.html">
+            
+                    
+                    Developer Checklist
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" >
+            
+                <span>
+            
+                    
+                    Appendices
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.15.1" data-path="../Appendices/appendixA.html">
+            
+                <a href="../Appendices/appendixA.html">
+            
+                    
+                    Appendix A: Learning Resources
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15.2" data-path="../Appendices/appendixB.html">
+            
+                <a href="../Appendices/appendixB.html">
+            
+                    
+                    Appendix B: OpenMRS Glossary
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15.3" data-path="../Appendices/appendixC.html">
+            
+                <a href="../Appendices/appendixC.html">
+            
+                    
+                    Appendix C: Troubleshooting
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="../about.html">
+            
+                <a href="../about.html">
+            
+                    
+                    About This Book
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Making Your First Module</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p><center><h1 id="creating-your-first-module">Creating Your First Module</h1></center></p>
+<hr>
+<h2 id="amani-clinic-case-study">Amani Clinic Case Study</h2>
+<p>To put this book in perspective, we&apos;ll walk through a fictional scenario that reflects the real world process of identifying the need for, designing, and building a module. Maintaining a modular architecture allows developers to add and remove special functionality into OpenMRS without having to modify the core project.</p>
+<p><strong>Lets get started!</strong></p>
+<h2 id="overview">Overview</h2>
+<p>Let&apos;s suppose there is an established health clinic called <strong>Amani Clinic</strong> in East Africa with a few staff members who are experienced in ICT and medical informatics. They are very talented and very busy. You find and read a ticket they created when they realized functionality for adding, editing, saving, and listing of departments would be helpful to their implementation. For the purposes of this task, we will define a department as a hospital ward designed to perform a specific purpose.</p>
+<p>Someone has left a comment <strong><em>&quot;This would be a good module project!&quot;</em> </strong>on the ticket. You would love a new project to work on and happen to have an interest in the larger issue of &quot;departments&quot; as they relate to health informatics, so you are interested in taking up this task.</p>
+<p>You send an email to Mrs. Zuma, the clinic&apos;s lead informatics person and ticket requester, expressing your interest and asking for some clarification about how a user would interact with the proposed Departments module. It is a good idea to touch base with the ticket requesters or would-be users before starting a project whose scope is likely more work and background than a straightforward bug-fix. While you wait for a reply (you might not know where in the world Mrs. Zuma lives), you decide to catch up on some emails of your own. You subscribed to the developers&apos; mailing list a few days ago because you want to stay informed about what other people are working on and what issues they run into. You are excited about learning and watch a few OpenMRS University recordings too.</p>
+<p>Mrs. Zuma is enthusiastic about you building this module for their clinic and potentially many others. She invites you to keep in touch as you go along. You have already worked your way through the Getting Started chapter, so you get to work using the OpenMRS SDK to start building your module.</p>
+<p>You officially begin work on the module by clicking on the button to &quot;claim&quot; the ticket on the OpenMRS JIRA. </p>
+<h2 id="pre-development-issues">Pre-development issues</h2>
+<p>While you may be ready to begin development right away, it is important to take a step back and plan out your work. Will this be a module which may be useful to all OpenMRS implementers, or implementers of the Amani clinic only? This factor may decide where the completed module will be hosted, and what kind of requirements/standards you need to maintain.</p>
+<p>It is best not to begin development until you have discussed your design plans with other community developers, and made sure that your plans meet our requirements. </p>
+<h2 id="creating-a-basic-module">Creating A Basic Module</h2>
+<p>The OpenMRS SDK, as explained in the Technology Chapter, allows you to get started with a basic module in a few minutes. The <code>mvn openmrs-sdk:create-project</code> command helps you execute the maven archetype, creating a module directory with a framework of all the necessary module files by prompting you for specific information.</p>
+<p>However, in order to execute this command, we assume that you&apos;re using JDK 1.7. No other pre-requisites are necessary.
+To complete the <code>mvn openmrs-sdk:create-project</code> workflow, you will be prompted to enter the following data:</p>
+<ul>
+<li><strong><code>What kind of project would you like to create?:</code></strong> You may choose to create a platform module, which can be run on any server or an OpenMRS Reference Application module, which needs to be run on a server with the OpenMRS Reference Application distribution installed. For this example, choose type <code>1</code>.</li>
+<li>Next, you will be prompted for <code>module id</code>, <code>module name</code>, <code>description</code>, <code>groupId</code>, <code>initial version</code> and the lowest version of <code>platform support</code>. For this example, you can stick with the default provided values.</li>
+</ul>
+<p>For more info, see <a href="https://wiki.openmrs.org/display/docs/Module+Conventions" target="_blank">module conventions</a>.</p>
+<h2 id="basic-module-structure">Basic Module Structure</h2>
+<p>The <code>mvn openmrs-sdk:create-project</code> command creates the basic module structure and components that it requires for use. Below is a detailed overview of these components, their structure and how they can be used.</p>
+<ul>
+<li><strong>api</strong> - non-web-specific &apos;maven module&apos; project<ul>
+<li><strong>src</strong> <ul>
+<li><strong>main</strong> - Java files in the module that are not web-specific.  These will be compiled into a distributable mymodule.jar</li>
+</ul>
+</li>
+<li><strong>target</strong> - folder built at runtime that will contain the distributable jar file for the module</li>
+</ul>
+</li>
+<li><strong>omod</strong><ul>
+<li><strong>src</strong><ul>
+<li><strong>main</strong><ul>
+<li><strong>java</strong> - web specific java files like controllers, servlets, and filters </li>
+<li><strong>resources</strong> - <ul>
+<li><a href="https://wiki.openmrs.org/display/docs/Module+Config+File" target="_blank">config.xml</a></li>
+<li><a href="https://wiki.openmrs.org/display/docs/Module+Hibernate+Mapping+Files" target="_blank">*.hbm.xml files</a></li>
+<li><a href="https://wiki.openmrs.org/display/docs/Module+liquibase+File" target="_blank">liquibase.xml</a> (or the old <a href="https://wiki.openmrs.org/display/docs/Module+sqldiff+File" target="_blank">sqldiff.xml</a> )</li>
+<li><a href="https://wiki.openmrs.org/display/docs/Module+messages.properties+Files" target="_blank">messages_*.properties files</a></li>
+<li><a href="https://wiki.openmrs.org/display/docs/Module+Application+Context+File" target="_blank">modulesApplicationContext.xml</a></li>
+<li>log4j.xml - optional file to control logging in your module<ul>
+<li><strong>webapp</strong> - jsp and html files included in the <code>omod</code></li>
+<li><a href="https://wiki.openmrs.org/display/docs/Module+Portlets" target="_blank">portlets</a> -</li>
+<li><a href="https://wiki.openmrs.org/display/docs/Module+Resources" target="_blank">resources</a> - image, js, and css files that your jsp files reference</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>target</strong> - Contains the distributable omod file</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>pom.xml</strong> - Maven build file.  Delegates to <code>pom.xml</code> files in the omod and api project</li>
+</ul>
+<h2 id="compiling-your-module">Compiling Your Module</h2>
+<p>The basic module structure comes ready to be compiled and installed onto the OpenMRS framework. To do this, navigate into the <code>basicexample</code> (your module id) directory and execute the following command:</p>
+<p> <code>mvn clean install</code></p>
+<p>This creates a <code>jar</code> file, and then package that jar into a <code>omod</code> file. The omod file is what you need to care about. It will be named <code>basicexample-1.0.0-SNAPSHOT.omod</code>, and located under the <code>basicexample/omod/target/</code> folder. The omod file is the module binary, which you will install into your OpenMRS application.</p>
+<p>Executing the maven clean install command also runs any unit tests. If you want to skip unit tests, use the following command instead:</p>
+<p><code>mvn clean install -Dmaven.test.skip=true</code></p>
+<h2 id="try-out-your-module">Try Out Your Module</h2>
+<p>To install your module go to the Admin interface of OpenMRS.</p>
+<ul>
+<li>Go to <code>http://localhost:8080/openmrs/admin/</code>. </li>
+<li>On the right side, is a <strong>Modules section</strong>. Click the <strong>Manage Modules</strong> link.</li>
+<li>Near the top, you will see an Add or Upgrade Module button, click it.</li>
+<li>Under the <strong>Add Module</strong> heading, click the <strong>Browse...</strong> button.</li>
+<li>In the file browser, select your <code>omod</code> file from <code>basicexample/omod/target/basicexample-1.0.0-SNAPSHOT.omod</code></li>
+<li><strong>Click Upload</strong>.</li>
+</ul>
+<p>You should now see your module under the Manage Modules heading.
+Another alternative would be to drop the compiled omod file into the <code>~/.OpenMRS/modules</code> folder.  (Where <code>~/.OpenMRS</code> is assumed to be the Application Data Directory that the running openmrs is currently using.)  After putting the file in there simply restart OpenMRS and the module will be loaded and started.</p>
+<p>When you navigate back to the main Administration page, you should see your module listed with a Basic Example Module heading, and a single sub-option of Manage module.</p>
+<h2 id="customize-your-module">Customize Your Module</h2>
+<p>Now that you have a basic module running, you want to add your own features which would allow it to <code>Hello World</code>, or what ever you want! Where to start?</p>
+<h3 id="add-a-new-field-to-your-data-model">Add a New Field To Your Data Model</h3>
+<p>Let&apos;s assume that your hello world task involves adding a new field titled &apos;<code>name</code>&apos; to your data model. </p>
+<p>In<code>department/api/src/main/java/org/openmrs/module/department/Department.java</code>, add new fields called name and description along with appropriate getters and setters for them. The file should now look as follows: </p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Department</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">BaseOpenmrsObject</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">Serializable</span> </span>{
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> <span class="hljs-keyword">long</span> serialVersionUID = <span class="hljs-number">1L</span>;
+    <span class="hljs-keyword">private</span> Integer departmentId;
+    <span class="hljs-keyword">private</span> String name;
+    <span class="hljs-keyword">private</span> String description;
+    <span class="hljs-function"><span class="hljs-keyword">public</span> Integer <span class="hljs-title">getDepartmentId</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> departmentId;
+    }
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setDepartmentId</span><span class="hljs-params">(Integer departmentId)</span> </span>{
+        <span class="hljs-keyword">this</span>.departmentId = departmentId;
+    }
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> Integer <span class="hljs-title">getId</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> getDepartmentId();
+    }
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setId</span><span class="hljs-params">(Integer id)</span> </span>{
+        setDepartmentId(id);
+    }
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getName</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> name;
+    }
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setName</span><span class="hljs-params">(String name)</span> </span>{
+        <span class="hljs-keyword">this</span>.name = name;
+    }
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getDescription</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> description;
+    }
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setDescription</span><span class="hljs-params">(String description)</span> </span>{
+        <span class="hljs-keyword">this</span>.description = description;
+    }
+}
+</code></pre>
+<h4 id="update-hibernate-orm-file-to-work-with-your-new-field">Update Hibernate ORM File to Work With Your New Field</h4>
+<p>In <code>department/api/src/main/resources/Department.hbm.xml</code>, uncomment the central block of code add new properties as shown below anywhere in the file. This lets Hibernate knows about the name and description fields you just created. Your file should look like the following:</p>
+<pre><code class="lang-xml"> <span class="php"><span class="hljs-meta">&lt;?</span>xml version=<span class="hljs-string">&quot;1.0&quot;</span><span class="hljs-meta">?&gt;</span></span>
+<span class="hljs-meta">&lt;!DOCTYPE hibernate-mapping PUBLIC
+    &quot;-//Hibernate/Hibernate Mapping DTD 3.0//EN&quot;
+    &quot;http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd&quot; &gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">hibernate-mapping</span> <span class="hljs-attr">package</span>=<span class="hljs-string">&quot;org.openmrs.module.department&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">class</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;Department&quot;</span>
+        <span class="hljs-attr">table</span>=<span class="hljs-string">&quot;${project.parent.artifactId}_Department&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">id</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;departmentId&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;int&quot;</span> <span class="hljs-attr">column</span>=<span class="hljs-string">&quot;department_id&quot;</span> <span class="hljs-attr">unsaved-value</span>=<span class="hljs-string">&quot;0&quot;</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">generator</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;native&quot;</span> /&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">id</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">discriminator</span> <span class="hljs-attr">column</span>=<span class="hljs-string">&quot;department_id&quot;</span> <span class="hljs-attr">insert</span>=<span class="hljs-string">&quot;false&quot;</span> /&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">property</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;uuid&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;java.lang.String&quot;</span> <span class="hljs-attr">column</span>=<span class="hljs-string">&quot;uuid&quot;</span> <span class="hljs-attr">length</span>=<span class="hljs-string">&quot;38&quot;</span> <span class="hljs-attr">unique</span>=<span class="hljs-string">&quot;true&quot;</span> /&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">property</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;name&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;java.lang.String&quot;</span> <span class="hljs-attr">column</span>=<span class="hljs-string">&quot;name&quot;</span> <span class="hljs-attr">length</span>=<span class="hljs-string">&quot;255&quot;</span> <span class="hljs-attr">unique</span>=<span class="hljs-string">&quot;true&quot;</span> /&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">property</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;description&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;java.lang.String&quot;</span> <span class="hljs-attr">column</span>=<span class="hljs-string">&quot;description&quot;</span> <span class="hljs-attr">length</span>=<span class="hljs-string">&quot;255&quot;</span> /&gt;</span>    
+    <span class="hljs-tag">&lt;/<span class="hljs-name">class</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">hibernate-mapping</span>&gt;</span>
+</code></pre>
+<p>To reflect this change in the existing database, add an appropriate change set into the <code>department/api/src/main/resources/liquibase.xml</code>. This is the code that actually changes the database for your project to reflect your name field. A sample changeset will generally look like this:</p>
+<pre><code class="lang-xml"><span class="php"><span class="hljs-meta">&lt;?</span>xml version=<span class="hljs-string">&quot;1.0&quot;</span> encoding=<span class="hljs-string">&quot;UTF-8&quot;</span><span class="hljs-meta">?&gt;</span></span>
+<span class="hljs-tag">&lt;<span class="hljs-name">databaseChangeLog</span> <span class="hljs-attr">xmlns</span>=<span class="hljs-string">&quot;http://www.liquibase.org/xml/ns/dbchangelog/1.9&quot;</span>
+    <span class="hljs-attr">xmlns:xsi</span>=<span class="hljs-string">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span>
+    <span class="hljs-attr">xsi:schemaLocation</span>=<span class="hljs-string">&quot;http://www.liquibase.org/xml/ns/dbchangelog/1.9
+                  http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd&quot;</span>&gt;</span>
+    <span class="hljs-comment">&lt;!--
+        See http://www.liquibase.org/manual/home#available_database_refactorings
+        for a list of supported elements and attributes
+    --&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">changeSet</span> <span class="hljs-attr">author</span>=<span class="hljs-string">&quot;yourname&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;20131010-1&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">comment</span>&gt;</span>Create the department table<span class="hljs-tag">&lt;/<span class="hljs-name">comment</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">createTable</span> <span class="hljs-attr">tableName</span>=<span class="hljs-string">&quot;department_department&quot;</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">column</span> <span class="hljs-attr">autoIncrement</span>=<span class="hljs-string">&quot;true&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;department_id&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;int&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">constraints</span> <span class="hljs-attr">primaryKey</span>=<span class="hljs-string">&quot;true&quot;</span> <span class="hljs-attr">nullable</span>=<span class="hljs-string">&quot;false&quot;</span> /&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">column</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">column</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;name&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;varchar(255)&quot;</span> /&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">column</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;description&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;varchar(255)&quot;</span> /&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">column</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;uuid&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;char(38)&quot;</span> /&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">createTable</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">changeSet</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">databaseChangeLog</span>&gt;</span>
+</code></pre>
+<h4 id="modify-dao-and-service-layer-classes-support-end-to-end-interactions">Modify DAO And Service Layer Classes Support End to End Interactions</h4>
+<p>The Module Maven Archetype or SDK option to add a service layer gives the module four files that make up the service layer: </p>
+<pre><code>* DAO (data access interface)
+* HibernateDAO
+* Service and 
+* ServiceImpl.
+</code></pre><p>The <code>HibernateDAO</code> is home to the <code>sessionFactory</code>, which actually connects to the database. The <code>ServiceImpl</code> will instantiate a DAO and then the module controller is free to instantiate a Service. Here is the code you will add to each file:</p>
+<p><strong>DAO:</strong></p>
+<pre><code class="lang-java"><span class="hljs-comment">/**
+ * Database methods for {<span class="hljs-doctag">@link</span> DepartmentService}.
+ */</span>
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">DepartmentDAO</span> </span>{
+    <span class="hljs-comment">/**
+     * <span class="hljs-doctag">@see</span> org.openmrs.module.department.api.DepartmentService#getAllDepartments()
+     */</span>
+    <span class="hljs-function">List&lt;Department&gt; <span class="hljs-title">getAllDepartments</span><span class="hljs-params">()</span></span>;
+    <span class="hljs-comment">/**
+     * <span class="hljs-doctag">@see</span> org.openmrs.module.department.api.DepartmentService#getDepartment(java.lang.Integer)
+     */</span>
+    <span class="hljs-function">Department <span class="hljs-title">getDepartment</span><span class="hljs-params">(Integer departmentId)</span></span>;
+    <span class="hljs-comment">/**
+     * <span class="hljs-doctag">@see</span> org.openmrs.module.department.api.DepartmentService#saveDepartment(org.openmrs.module.department.Department)
+     */</span>
+    <span class="hljs-function">Department <span class="hljs-title">saveDepartment</span><span class="hljs-params">(Department department)</span></span>;
+    <span class="hljs-comment">/**
+     * <span class="hljs-doctag">@see</span> org.openmrs.module.department.api.DepartmentService#purgeDepartment(org.openmrs.module.department.Department)
+     */</span>
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">purgeDepartment</span><span class="hljs-params">(Department department)</span></span>;
+}
+</code></pre>
+<p><strong>HibernateDAO:</strong></p>
+<pre><code class="lang-java"><span class="hljs-comment">/**
+ * The default implementation of {<span class="hljs-doctag">@link</span> DepartmentDAO}.
+ */</span>
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">HibernateDepartmentDAO</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">DepartmentDAO</span> </span>{
+    <span class="hljs-keyword">protected</span> <span class="hljs-keyword">final</span> Log log = LogFactory.getLog(<span class="hljs-keyword">this</span>.getClass());
+    <span class="hljs-keyword">private</span> SessionFactory sessionFactory;
+    <span class="hljs-comment">/**
+     * <span class="hljs-doctag">@param</span> sessionFactory the sessionFactory to set
+     */</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setSessionFactory</span><span class="hljs-params">(SessionFactory sessionFactory)</span> </span>{
+        <span class="hljs-keyword">this</span>.sessionFactory = sessionFactory;
+    }
+    <span class="hljs-comment">/**
+     * <span class="hljs-doctag">@return</span> the sessionFactory
+     */</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> SessionFactory <span class="hljs-title">getSessionFactory</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> sessionFactory;
+    }
+    <span class="hljs-comment">/**
+     * <span class="hljs-doctag">@see</span> org.openmrs.module.department.api.db.DepartmentDAO#getAllDepartments()
+     */</span>
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> List&lt;Department&gt; <span class="hljs-title">getAllDepartments</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> sessionFactory.getCurrentSession().createCriteria(Department.class).list();
+    }
+    <span class="hljs-comment">/**
+     * <span class="hljs-doctag">@see</span> org.openmrs.module.department.api.DepartmentService#getDepartment(java.lang.Integer)
+     */</span>
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> Department <span class="hljs-title">getDepartment</span><span class="hljs-params">(Integer departmentId)</span> </span>{
+        <span class="hljs-keyword">return</span> (Department) sessionFactory.getCurrentSession().get(Department.class, departmentId);
+    }
+    <span class="hljs-comment">/**
+     * <span class="hljs-doctag">@see</span> org.openmrs.module.department.api.db.DepartmentDAO#saveDepartment(org.openmrs.module.department.Department)
+     */</span>
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> Department <span class="hljs-title">saveDepartment</span><span class="hljs-params">(Department department)</span> </span>{
+        sessionFactory.getCurrentSession().save(department);
+        <span class="hljs-keyword">return</span> department;
+    }
+    <span class="hljs-comment">/**
+     * <span class="hljs-doctag">@see</span> org.openmrs.module.department.api.db.DepartmentDAO#purgeDepartment(org.openmrs.module.department.Department)
+     */</span>
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">purgeDepartment</span><span class="hljs-params">(Department department)</span> </span>{
+        sessionFactory.getCurrentSession().delete(department);
+    }
+}
+</code></pre>
+<p><strong>Service:</strong></p>
+<pre><code class="lang-java"><span class="hljs-comment">/**
+ * The service for managing departments.
+ */</span>
+<span class="hljs-meta">@Transactional</span>
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">DepartmentService</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">OpenmrsService</span> </span>{
+    <span class="hljs-comment">/**
+     * Gets a list of departments.
+     *
+     * <span class="hljs-doctag">@return</span> the department list.
+     */</span>
+    <span class="hljs-meta">@Transactional</span>(readOnly = <span class="hljs-keyword">true</span>)
+    <span class="hljs-function">List&lt;Department&gt; <span class="hljs-title">getAllDepartments</span><span class="hljs-params">()</span></span>;
+    <span class="hljs-comment">/**
+     * Gets a department for a given id.
+     *
+     * <span class="hljs-doctag">@param</span> id the department id
+     * <span class="hljs-doctag">@return</span> the department with the given id
+     */</span>
+    <span class="hljs-meta">@Transactional</span>(readOnly = <span class="hljs-keyword">true</span>)
+    <span class="hljs-function">Department <span class="hljs-title">getDepartment</span><span class="hljs-params">(Integer departmentId)</span></span>;
+    <span class="hljs-comment">/**
+     * Saves a new or existing department.
+     *
+     * <span class="hljs-doctag">@param</span> department the department to save.
+     * <span class="hljs-doctag">@return</span> the saved department.
+     */</span>
+    <span class="hljs-function">Department <span class="hljs-title">saveDepartment</span><span class="hljs-params">(Department department)</span></span>;
+    <span class="hljs-comment">/**
+     * Deletes a department from the database.
+     *
+     * <span class="hljs-doctag">@param</span> department the department to delete.
+     */</span>
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">purgeDepartment</span><span class="hljs-params">(Department department)</span></span>;
+}
+</code></pre>
+<p><strong>ServiceImpl:</strong></p>
+<pre><code class="lang-java"><span class="hljs-comment">/**
+ * It is a default implementation of {<span class="hljs-doctag">@link</span> DepartmentService}.
+ */</span>
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DepartmentServiceImpl</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">BaseOpenmrsService</span> <span class="hljs-keyword">implements</span> <span class="hljs-title">DepartmentService</span> </span>{
+    <span class="hljs-keyword">protected</span> <span class="hljs-keyword">final</span> Log log = LogFactory.getLog(<span class="hljs-keyword">this</span>.getClass());
+    <span class="hljs-keyword">private</span> DepartmentDAO dao;
+    <span class="hljs-comment">/**
+     * <span class="hljs-doctag">@param</span> dao the dao to set
+     */</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setDao</span><span class="hljs-params">(DepartmentDAO dao)</span> </span>{
+        <span class="hljs-keyword">this</span>.dao = dao;
+    }
+    <span class="hljs-comment">/**
+     * <span class="hljs-doctag">@return</span> the dao
+     */</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> DepartmentDAO <span class="hljs-title">getDao</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> dao;
+    }
+    <span class="hljs-comment">/**
+     * <span class="hljs-doctag">@see</span> org.openmrs.module.department.api.DepartmentService#getAllDepartments()
+     */</span>
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> List&lt;Department&gt; <span class="hljs-title">getAllDepartments</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-keyword">return</span> dao.getAllDepartments();
+    }
+    <span class="hljs-comment">/**
+     * <span class="hljs-doctag">@see</span> org.openmrs.module.department.api.DepartmentService#getDepartment(java.lang.Integer)
+     */</span>
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> Department <span class="hljs-title">getDepartment</span><span class="hljs-params">(Integer departmentId)</span> </span>{
+        <span class="hljs-keyword">return</span> dao.getDepartment(departmentId);
+    }
+    <span class="hljs-comment">/**
+     * <span class="hljs-doctag">@see</span> org.openmrs.module.department.api.DepartmentService#saveDepartment(org.openmrs.module.department.Department)
+     */</span>
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> Department <span class="hljs-title">saveDepartment</span><span class="hljs-params">(Department department)</span> </span>{
+        <span class="hljs-keyword">return</span> dao.saveDepartment(department);
+    }
+    <span class="hljs-comment">/**
+     * <span class="hljs-doctag">@see</span> org.openmrs.module.department.api.DepartmentService#purgeDepartment(org.openmrs.module.department.Department)
+     */</span>
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">purgeDepartment</span><span class="hljs-params">(Department department)</span> </span>{
+        dao.purgeDepartment(department);
+    }
+}
+</code></pre>
+<h2 id="coding-conventions-and-standards">Coding Conventions And Standards</h2>
+<p>When editing the DAO and service layer classes, don&apos;t forget to ensure that your code adheres to our general standards. Refer to the &apos;Development process&apos; chapter, which will give you detailed instructions on how to ensure this.</p>
+<p>Also, don&apos;t forget to add <code>Junit Unit tests</code> to validate that the methods you introduced behave exactly as they should. </p>
+<h3 id="creating-the-web-interface-for-your-module">Creating The Web Interface For Your Module</h3>
+<p>To make these changes to be accessible to users, you need to make changes to the module controller. You will also need to introduce a new file named <code>addDepartment.jsp</code> into the <code>/omod/src/main/webapp</code> directory. This will contain the <code>.jsp</code> page that lets you edit your name. The general contents of this class will be as follows: </p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">method</span>=<span class="hljs-string">&quot;post&quot;</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">fieldset</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">table</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">openmrs:message</span> <span class="hljs-attr">code</span>=<span class="hljs-string">&quot;general.name&quot;</span>/&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">td</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">spring:bind</span> <span class="hljs-attr">path</span>=<span class="hljs-string">&quot;department.name&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;name&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;${status.value}&quot;</span> <span class="hljs-attr">size</span>=<span class="hljs-string">&quot;35&quot;</span> /&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">c:if</span> <span class="hljs-attr">test</span>=<span class="hljs-string">&quot;${status.errorMessage != &apos;&apos;}&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;error&quot;</span>&gt;</span>${status.errorMessage}<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">c:if</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">spring:bind</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">tr</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">valign</span>=<span class="hljs-string">&quot;top&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">openmrs:message</span> <span class="hljs-attr">code</span>=<span class="hljs-string">&quot;general.description&quot;</span>/&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">td</span> <span class="hljs-attr">valign</span>=<span class="hljs-string">&quot;top&quot;</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">spring:bind</span> <span class="hljs-attr">path</span>=<span class="hljs-string">&quot;department.description&quot;</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">textarea</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;description&quot;</span> <span class="hljs-attr">rows</span>=<span class="hljs-string">&quot;3&quot;</span> <span class="hljs-attr">cols</span>=<span class="hljs-string">&quot;40&quot;</span> <span class="hljs-attr">onkeypress</span>=<span class="hljs-string">&quot;return forceMaxLength(this, 1024);&quot;</span> &gt;</span>${status.value}<span class="hljs-tag">&lt;/<span class="hljs-name">textarea</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">c:if</span> <span class="hljs-attr">test</span>=<span class="hljs-string">&quot;${status.errorMessage != &apos;&apos;}&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;error&quot;</span>&gt;</span>${status.errorMessage}<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">c:if</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">spring:bind</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">td</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">tr</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">br</span> /&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;submit&quot;</span> <span class="hljs-attr">value</span>=<span class="hljs-string">&quot;&lt;openmrs:message code=&quot;</span><span class="hljs-string">department.save&quot;</span>/&gt;</span>&quot; name=&quot;save&quot;&gt;
+<span class="hljs-tag">&lt;/<span class="hljs-name">fieldset</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span>
+</code></pre>
+<p>Once the <code>.jsp</code> is complete, don&apos;t forget to modify the controller to point to this. It is also useful to add validations to asses user input when the controller is triggered.</p>
+<pre><code class="lang-java"> <span class="hljs-meta">@RequestMapping</span>(value = <span class="hljs-string">&quot;/module/department/departmentForm.form&quot;</span>, method = RequestMethod.POST)
+    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">submitDepartment</span><span class="hljs-params">(WebRequest request, HttpSession httpSession, ModelMap model,
+                                   @RequestParam(required = <span class="hljs-keyword">false</span>, value = <span class="hljs-string">&quot;action&quot;</span>)</span> String action,
+                                   @<span class="hljs-title">ModelAttribute</span><span class="hljs-params">(<span class="hljs-string">&quot;department&quot;</span>)</span> Department department, BindingResult errors) </span>{
+
+        MessageSourceService mss = Context.getMessageSourceService();
+        DepartmentService departmentService = Context.getService(DepartmentService.class);
+        <span class="hljs-keyword">if</span> (!Context.isAuthenticated()) {
+            errors.reject(<span class="hljs-string">&quot;department.auth.required&quot;</span>);
+        } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (mss.getMessage(<span class="hljs-string">&quot;department.purgeDepartment&quot;</span>).equals(action)) {
+            <span class="hljs-keyword">try</span> {
+                departmentService.purgeDepartment(department);
+                httpSession.setAttribute(WebConstants.OPENMRS_MSG_ATTR, <span class="hljs-string">&quot;department.delete.success&quot;</span>);
+                <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;redirect:departmentList.list&quot;</span>;
+            }
+            <span class="hljs-keyword">catch</span> (Exception ex) {
+                httpSession.setAttribute(WebConstants.OPENMRS_ERROR_ATTR, <span class="hljs-string">&quot;department.delete.failure&quot;</span>);
+                log.error(<span class="hljs-string">&quot;Failed to delete department&quot;</span>, ex);
+                <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;redirect:departmentForm.form?departmentId=&quot;</span> + request.getParameter(<span class="hljs-string">&quot;departmentId&quot;</span>);
+            }
+        } <span class="hljs-keyword">else</span> {
+            departmentService.saveDepartment(department);
+            httpSession.setAttribute(WebConstants.OPENMRS_MSG_ATTR, <span class="hljs-string">&quot;department.saved&quot;</span>);
+        }
+        <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;redirect:departmentList.list&quot;</span>;
+    }
+</code></pre>
+<p>Now that your module is completed, it is the perfect time to go ahead and test it. First test it yourself to make sure that there are no obvious mistakes before asking a target end user to try it out. The end user&apos;s feedback may result in further design discussions or reviews. Once these have been completed, the module can be implemented at the clinic, and also made available publicly. Refer to the guidelines specified in the &apos;Development Process&apos; chapter to find out the best way to do this.</p>
+<p>Once your module is released, you may think that your work is over. However, there is no such thing. As health systems, requirements, and technology change, so must the software.This makes medical informatics a viable career option, but does not mean you are responsible for maintaining <code>Hello World</code> for the rest of its life with OpenMRS.</p>
+<h3 id="sharing-your-module">Sharing Your Module</h3>
+<p>When done with developing and testing your module, you can release it for developers by deploying to the Maven repository using instructions at: <a href="http://om.rs/newdevtagging" target="_blank">http://om.rs/newdevtagging</a></p>
+<p>For end users, you can release your module via GitHub Releases, Bintray, Maven, etc. Now, your published module will be added to the <a href="https://addons.openmrs.org/" target="_blank">Add-ons index</a>, which is available to everyone. Read more on the <a href="https://wiki.openmrs.org/x/zIMmAQ" target="_blank">Module Release process here</a>. Also read more about our rules and regulations for it here: <a href="http://om.rs/newdevmodrepo" target="_blank">http://om.rs/newdevmodrepo</a> </p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../Technology/getSetUp.html" class="navigation navigation-prev " aria-label="Previous page: Get Set Up">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../What_next/getInvolved.html" class="navigation navigation-next " aria-label="Next page: Get Involved">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Making Your First Module","level":"1.11","depth":1,"next":{"title":"Get Involved","level":"1.12","depth":1,"path":"What_next/getInvolved.md","ref":"What_next/getInvolved.md","articles":[]},"previous":{"title":"Get Set Up","level":"1.10","depth":1,"path":"Technology/getSetUp.md","ref":"Technology/getSetUp.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-default","custom-favicon","ga","edit-link"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"/assets/favicon.ico","custom-favicon":{},"ga":{"configuration":"auto","token":"UA-16695719-13"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"EDIT","base":"https://github.com/openmrs/openmrs-book-developer-manual/edit/master"},"theme-default":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"languages":[{"lang":"js","name":"JavaScript","default":true},{"lang":"java","name":"Java"},{"lang":"html","name":"HTML"},{"lang":"sh","name":"Shell"},{"lang":"go","name":"Go"}]}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"en","gitbook":"*"},"file":{"path":"Case_study/yourFirstModule.md","mtime":"2018-01-15T19:55:19.067Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-01-15T19:56:26.504Z"},"basePath":"..","book":{"language":"en"}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
